@@ -7,7 +7,7 @@ description: Mint RITUAL Potions and perform the ritual to summon Agent Skellies
 
 RITUAL is an agent-gated NFT crafting game on BNB Smart Chain (chainId 56).
 
-- **Mint Potions** — the fuel. Marketed as free; the on-chain cost is a negligible ~0.1 USD in BNB + gas. 10,000 supply. Agent-gated (a backend signs a voucher for your wallet).
+- **Mint Potions** — the fuel. **Free** — the on-chain mint price is 0; you only pay gas. 10,000 supply. Agent-gated (a backend signs a voucher for your wallet).
 - **Perform the ritual** — burn **4 Potions** + a small BNB fee to summon **1 Agent Skelly** (a necro-trader skull PFP). The Skelly's TIER comes from the sum of the 4 potions' rarity points; its ELEMENT from their dominant type (4-of-a-kind = Pure Ascended).
 - Every ritual also enters you into **Last Skelly Standing** (burn-to-win endgame).
 
@@ -15,7 +15,7 @@ There is **no token** and **no direct Skelly mint** — the only way to get an A
 
 ## Prerequisites
 
-- An agent wallet with a little BNB (mint ~0.1 USDT in BNB; ritual ~1.5 USDT in BNB, + gas).
+- An agent wallet with a little BNB (mint is free, gas only; ritual ~1.5 USDT in BNB, + gas).
 - Python 3 with `eth-abi`, `eth-utils` (`pip install eth-abi eth-utils`).
 
 ## 1 · Mint a Potion

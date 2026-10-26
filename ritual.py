@@ -34,7 +34,7 @@ KNOWN = {
     "potion": "0x0Eb88f1b5Eb66264069f5B60D58886Ffa684Fd2C",  # PotionNFT
     "burner": "0x6dE9915c9c4c471aD8D39a248C1DE58B86c6B0Ce",  # RitualBurner
 }
-# Hard safety caps. The real values are ~0.1 USD (mint) and ~1.5 USD (ritual) in BNB; these caps
+# Hard safety caps. Mint is free (price 0); the ritual fee is ~1.5 USD in BNB. These caps
 # sit far above that so price swings pass, but a malicious/overpriced voucher is refused.
 MAX_MINT_WEI = 5 * 10**15   # 0.005 BNB
 MAX_FEE_WEI  = 5 * 10**16   # 0.05 BNB
